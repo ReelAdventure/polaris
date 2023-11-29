@@ -90,6 +90,7 @@
     "change-case": "^3.1.0",
     "chromatic": "^6.5.4",
     "create-file-webpack": "^1.0.2",
+    "decamelize": "^6.0.0",
     "endent": "^2.1.0",
     "globby": "^11.1.0",
     "js-yaml": "^4.1.0",
