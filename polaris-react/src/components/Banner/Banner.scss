@@ -23,11 +23,13 @@
 }
 
 .withinPage {
-  box-shadow: var(--p-shadow-bevel);
+  outline: 2px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -2px;
   border-radius: none;
 
   @media #{$p-breakpoints-sm-up} {
-    box-shadow: var(--p-shadow-bevel);
+    outline: 2px solid rgba(0, 0, 0, 0.05);
+    outline-offset: -2px;
     border-radius: var(--p-border-radius-300);
   }
 
